@@ -13,7 +13,7 @@ module.exports = {
       network_id: "*" // Match any network id
     },
      ropsten: {
-      gas: 500000,
+      gas: 5000000,
       provider: function() {
       	//0x9c76b879dceb4936b890127be7e4930ca9525db4 -> eth address
         return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/9IVwUjnwncMb0oQAHHIP", 0)
